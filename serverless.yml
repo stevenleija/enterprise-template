@@ -11,8 +11,8 @@
 #
 # Happy Coding!
 
-tenant: tenantname # NOTE: change this to your Serverless Enterprise tenant name
-app: appname # NOTE: change this to your Serverless Enterprise app name
+tenant: stevenleija # NOTE: change this to your Serverless Enterprise tenant name
+app: sidelinepros # NOTE: change this to your Serverless Enterprise app name
 service: serverless-enterprise # NOTE: optionally update this with your service name
 
 # You can pin your service to only deploy with a specific Serverless version
@@ -59,7 +59,7 @@ provider:
 functions:
   hello:
     handler: handler.hello
-    
+
     events:
       - http:
           path: hello
